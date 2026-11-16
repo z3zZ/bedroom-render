@@ -9,7 +9,7 @@ Interactive 3D plan of my bedroom makeover, built with three.js. Drag to orbit, 
   - 100cm black mirror-door wardrobe (PAX, 58cm deep) in the window corner
   - 130cm TV section with lit cubbies above and below a wall-mounted 48" OLED (opening 85cm tall)
   - 40cm BILLY figure tower (237cm tall) next to the door
-- **Desk wall:** 180cm desk with a two-katana rack above it, double bed with three 40 × 55cm canvases above the headboard
+- **Desk wall:** 180cm desk with a two-katana rack above it, double bed with three 40 × 30cm canvases above the headboard
 - **Radiator:** about 100cm along the wall beside the bed
 
 ## Files

@@ -200,11 +200,11 @@ function build() {
   B(bx, 0, foot, bw, 30, bl, 0x1a1a1a); B(bx + 2, 30, foot + 2, bw - 4, 22, bl - 6, 0xd8d0e0); B(bx, 0, D - 6, bw, 105, 6, 0x1a1a1a);
   B(bx + 10, 52, D - 45, bw / 2 - 15, 10, 32, 0xf4eef8); B(bx + bw / 2 + 5, 52, D - 45, bw / 2 - 15, 10, 32, 0xf4eef8);
   B(bx + 2, 52, foot + 4, bw - 4, 4, bl - 60, 0x6a4a7a);
-  const cw = 40, ch = 55, gp = 8, cols = [[0x2b2f5a, 0xe06a8a], [0x1f1f2e, 0xf2c6de], [0x3a2550, 0x8fb3d9]];
+  const cw = 40, ch = 30, gp = 8, cols = [[0x2b2f5a, 0xe06a8a], [0x1f1f2e, 0xf2c6de], [0x3a2550, 0x8fb3d9]];
   [-1, 0, 1].forEach((k, i) => {
     const x = cx - cw / 2 + k * (cw + gp);
     B(x, 122, D - 4, cw, ch, 4, cols[i][0]);
-    B(x + 8, 138, D - 4.6, cw - 16, ch - 30, 0.4, cols[i][1], { emissive: cols[i][1], emissiveIntensity: 0.15 });
+    B(x + 7, 128, D - 4.6, cw - 14, ch - 12, 0.4, cols[i][1], { emissive: cols[i][1], emissiveIntensity: 0.15 });
   });
   L(cx, 170, D - 50, 0xffd0b0, 0.3, 160);
   B(W - 11, 18, foot, 9, 60, 100, 0xf2f2f2);
@@ -222,7 +222,7 @@ function build() {
   T('Desk 180 × 70', 90, 92, D - 50);
   T('Katana rack ~120', 90, 215, D - 20);
   T('Bed ' + bw + ' × ' + bl, cx, 70, foot + bl / 2);
-  T('Canvases 40 × 55', cx, 190, D - 12);
+  T('Canvases 40 × 30', cx, 165, D - 12);
   T('Radiator ~100', W - 30, 90, foot + 50);
   T(Math.round(side) + ' gap', bx + bw + side / 2, 40, foot + 20);
   T(Math.round(foot - 28) + ' walkway', cx, 8, (28 + foot) / 2);
